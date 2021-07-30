@@ -1,0 +1,8 @@
+//
+// Created by eric on 2021/7/30.
+//
+
+#ifndef OGLTEMPLATE_ROOT_DIRECTORY_H
+#define OGLTEMPLATE_ROOT_DIRECTORY_H
+const char * logl_root = "${CMAKE_SOURCE_DIR}";
+#endif //OGLTEMPLATE_ROOT_DIRECTORY_H
