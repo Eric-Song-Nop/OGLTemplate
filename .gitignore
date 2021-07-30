@@ -1,3 +1,7 @@
+### Self build scripts
+scripts/*
+BUILD-RelWithDebug/*
+
 ### Model folder
 /resources/objects/**
 

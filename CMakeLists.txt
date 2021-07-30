@@ -21,8 +21,9 @@ file(GLOB SOURCE
         "src/*.fs"
         )
 
-configure_file(configure/root_directory.h.in configure/root_directory.h)
-include_directories(${CMAKE_BINARY_DIR}/configuration)
+configure_file(${CMAKE_SOURCE_DIR}/configure/root_directory.h.in ${CMAKE_SOURCE_DIR}/configure/root_directory.h)
+include_directories(${CMAKE_SOURCE_DIR}/configure)
+#message(${CMAKE_SOURCE_DIR})
 
 add_executable(OGLTemplate ${SOURCE})
 
